@@ -1,0 +1,27 @@
+[package]
+name = "nekobot"
+version = "0.0.1"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/pas2rust/nekobot"
+readme = "README.md"
+include = [
+    "src/**",
+    "Cargo.toml",
+    "README.md",
+    "LICENSE*"
+]
+
+categories = ["automation", "gui", "desktop"]
+description = "A visual automation bot: detects screen elements, clicks and types with Rust"
+keywords = ["automation", "bot", "screen", "mouse", "keyboard", "template-matching"]
+authors = ["pas2rust <pas2000@proton.me>"]
+homepage = "https://github.com/pas2rust/"
+documentation = "https://docs.rs/nekobot"
+
+[dependencies]
+##opencv = { version = "0.77", features = ["opencv-4"] }
+##scrap = "0.10"
+##enigo = "0.0.14"
+##anyhow = "1.0"
+##image = "0.24"
