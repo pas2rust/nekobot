@@ -14,7 +14,7 @@ include = [
 
 categories = ["automation", "gui", "desktop"]
 description = "A visual automation bot: detects screen elements, clicks and types with Rust"
-keywords = ["automation", "bot", "screen", "mouse", "keyboard", "template-matching"]
+keywords = ["automation", "bot"]
 authors = ["pas2rust <pas2000@proton.me>"]
 homepage = "https://github.com/pas2rust/"
 documentation = "https://docs.rs/nekobot"
