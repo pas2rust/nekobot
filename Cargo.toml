@@ -12,7 +12,7 @@ include = [
     "LICENSE*"
 ]
 
-categories = ["automation", "gui", "desktop"]
+categories = []
 description = "A visual automation bot: detects screen elements, clicks and types with Rust"
 keywords = ["automation", "bot"]
 authors = ["pas2rust <pas2000@proton.me>"]
