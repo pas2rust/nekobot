@@ -20,8 +20,12 @@ homepage = "https://github.com/pas2rust/"
 documentation = "https://docs.rs/nekobot"
 
 [dependencies]
-##opencv = { version = "0.77", features = ["opencv-4"] }
-##scrap = "0.10"
-##enigo = "0.0.14"
-##anyhow = "1.0"
-##image = "0.24"
+chrono = "0.4.42"
+colorful = "0.3.2"
+kenzu = "0"
+nekoprint = "0"
+reqwest = { version = "0", features = ["json"] }
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+shori = { version = "0", features = ["serde_json"] }
+tokio = { version = "1.47.1", features = ["full"] }
