@@ -4,8 +4,8 @@ use nekoprint::NekoPrint;
 use serde::{Deserialize, Serialize};
 
 #[derive(Debug, Builder, Serialize, Deserialize, NekoPrint, Clone, Default)]
-#[transporter(async fn procedure() {
-    println!("{message}");
+#[transporter(async fn trans() {
+    transporter(&message).await;
 })]
 pub struct NekoBot {
     #[set(value=WebDriver::new())]
